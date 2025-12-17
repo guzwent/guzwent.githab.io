@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анна Кодова | Веб-дизайнер</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+</head>
+<body>
+    <!-- Навигация -->
+    <header>
+        <nav class="main-nav">
+            <a href="#" class="logo"><img src="images/logo.svg" alt="Логотип АК" width="40"></a>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Секция 1: Главная -->
+        <section id="home" class="hero">
+            <h1>Анна Кодова</h1>
+            <p class="subtitle">Веб-дизайнер & Frontend-энтузиаст</p>
+            <p>Создаю чистые, адаптивные и функциональные интерфейсы, которые решают задачи пользователей и бизнеса.</p>
+            <a href="#portfolio" class="button">Смотреть работы</a>
+        </section>
+
+        <!-- Секция 2: Обо мне -->
+        <section id="about">
+            <h2>Обо мне</h2>
+            <div class="about-content">
+                <img src="images/my-photo.jpg" alt="Мое фото" class="about-photo">
+                <div class="about-text">
+                    <p>Более 3-х лет погружаюсь в мир цифрового дизайна. Мой путь начался с графики и постепенно перерос в глубокий интерес к проектированию пользовательского опыта и фронтенд-разработке.</p>
+                    <p>Я верю, что хороший дизайн — это не только эстетика, но и логика, ясность и эффективность. В своей работе уделяю особое внимание типографике, контрастности и продуманной адаптивности, чтобы интерфейс был удобен на любом устройстве. Постоянно изучаю новые инструменты и подходы, такие как Figma, Adobe Creative Suite и, конечно, вёрстку на HTML/CSS.</p>
+                    <p>Здесь вы можете увидеть проекты, в которых я смогла воплотить эти принципы — от концепции до интерактивного прототипа.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция 3: Портфолио (Галерея) -->
+        <section id="portfolio">
+            <h2>Портфолио</h2>
+            <div class="gallery">
+                <div class="gallery-item"><img src="images/work1.jpg" alt="Проект 1: Лендинг для кофейни"></div>
+                <div class="gallery-item"><img src="images/work2.jpg" alt="Проект 2: Интерфейс мобильного приложения"></div>
+                <div class="gallery-item"><img src="images/work3.jpg" alt="Проект 3: Корпоративный сайт"></div>
+                <div class="gallery-item"><img src="images/work4.jpg" alt="Проект 4: Брендбук"></div>
+                <div class="gallery-item"><img src="images/work5.jpg" alt="Проект 5: E-commerce платформа"></div>
+            </div>
+        </section>
+
+        <!-- Секция 4: Контакты и Форма -->
+        <section id="contacts">
+            <h2>Связаться со мной</h2>
+            <div class="contacts-wrapper">
+                <form class="contact-form" id="feedbackForm">
+                    <input type="text" name="name" placeholder="Ваше имя" required>
+                    <input type="email" name="email" placeholder="Ваш e-mail" required>
+                    <textarea name="message" rows="5" placeholder="Ваше сообщение..." required></textarea>
+                    <button type="submit" class="button">Отправить сообщение</button>
+                    <p id="formMessage" class="message"></p>
+                </form>
+                <div class="contact-info">
+                    <p>Вы также можете написать мне напрямую:</p>
+                    <p><a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
+                    <p><a href="mailto:hello@annakodova.example">hello@annakodova.example</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер -->
+    <footer>
+        <p>© 2025 Анна Кодова. Все права защищены.</p>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/example" aria-label="LinkedIn"><svg>...</svg></a>
+            <a href="https://www.behance.net/example" aria-label="Behance"><svg>...</svg></a>
+        </div>
+        <p>Контакт для связи: <a href="tel:+79991234567">+7 (999) 123-45-67</a>,
+        <a href="mailto:example@mail.ru">example@mail.ru</a></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
